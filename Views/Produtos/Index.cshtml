@@ -1,3 +1,5 @@
+@model List<Ecommerce.Models.Produto>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,28 +9,120 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Ecommerce.styles.css" asp-append-version="true" />
+
+    <script src="https://kit.fontawesome.com/88cbac72fc.js" crossorigin="anonymous" defer></script>
 </head>
 <body>
     <section class="home">
         <nav>
             <h1>CoffeUp</h1>
-            <a href="#">Gerenciar Produtos</a>
+            <a asp-controller="Usuarios" asp-action="Index">Gerenciar Produtos</a>
         </nav>
         <div class="sobre">
-            <h1>Dê um Up na energia<br/>com um café no precinho</h1>
-            <p>A CoffeUp mostra diversas opções de café que você pode estar tomando em uma interface simples, bonita e objetiva. Dê uma olhada em nosso cardápio!</p>
-            <a href="">Ver cardápio</a>
+            <div>
+                <h1>Dê um Up na energia<br/>com um café no precinho</h1>
+                <p>A CoffeUp mostra diversas opções de café que você pode estar tomando em uma interface simples, bonita e objetiva. Dê uma olhada em nosso cardápio!</p>
+                <a href="#cardapio">Ver cardápio</a>
+            </div>
+            <img src="~/img/graos-de-cafe-levitam-em-um-fundo-branco.jpg" alt="Grãos de café">
         </div>
-        <div class="containers">
-            @* <div class="container">
+        <div id="cardapio" class="containers">
+            <div class="container container-amostra">
+                <h3>Dê uma olhada em nossos cafés</h3>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+            <div class="container">
                 <h3>Java Coffe</h3>
                 <p>Ideal para um apreciador raíz</p>
-                <h4>R$ 8,00</h4>
+                <h4>R$ 7.99</h4>
                 <form action="">
                     <button type="submit">Comprar</button>
                 </form>
-            </div> *@
+            </div>
+            <div class="container">
+                <h3>Macchiato</h3>
+                <p>Elegância pura em camadas</p>
+                <h4>R$ 5.99</h4>
+                <form action="">
+                    <button type="submit">Comprar</button>
+                </form>
+            </div>
+            <div class="container">
+                <h3>Mocha</h3>
+                <p>Uma indulgência decadente</p>
+                <h4>R$ 9.99</h4>
+                <form action="">
+                    <button type="submit">Comprar</button>
+                </form>
+            </div>
+            <div class="container">
+                <h3>Affogato</h3>
+                <p>Fusão perfeita de calor e frio</p>
+                <h4>R$ 12.99</h4>
+                <form action="">
+                    <button type="submit">Comprar</button>
+                </form>
+            </div>
+            <div class="container">
+                <h3>Flat White</h3>
+                <p>Equilíbrio suave café e leite</p>
+                <h4>R$ 7.99</h4>
+                <form action="">
+                    <button type="submit">Comprar</button>
+                </form>
+            </div>
+            <div class="container">
+                <h3>Italiano</h3>
+                <p>Intensidade encorpada</p>
+                <h4>R$ 9.99</h4>
+                <form action="">
+                    <button type="submit">Comprar</button>
+                </form>
+            </div>
+            <div class="container">
+                <h3>Cappuccino</h3>
+                <p>Harmonia de espresso</p>
+                <h4>R$ 9.99</h4>
+                <form action="">
+                    <button type="submit">Comprar</button>
+                </form>
+            </div>
+            <div class="container">
+                <h3>Ristretto</h3>
+                <p>Pura intensidade</p>
+                <h4>R$ 15.99</h4>
+                <form action="">
+                    <button type="submit">Comprar</button>
+                </form>
+            </div>
+            <div class="container">
+                <h3>Cold Brew</h3>
+                <p>Refrescância pura</p>
+                <h4>R$ 17.99</h4>
+                <form action="">
+                    <button type="submit">Comprar</button>
+                </form>
+            </div>
+            <div class="container">
+                <h3>Frappuccino</h3>
+                <p>Pede indulgência</p>
+                <h4>R$ 7.99</h4>
+                <form action="">
+                    <button type="submit">Comprar</button>
+                </form>
+            </div>
+            <div class="container">
+                <h3>Café au Lait</h3>
+                <p>Elegância francesa</p>
+                <h4>R$ 5.99</h4>
+                <form action="">
+                    <button type="submit">Comprar</button>
+                </form>
+            </div>
         </div>
+        <footer>
+            <h1>CoffeUp</h1>
+        </footer>
     </section>
 </body>
 </html>

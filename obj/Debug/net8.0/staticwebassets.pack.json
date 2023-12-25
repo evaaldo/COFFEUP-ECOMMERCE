@@ -9,12 +9,20 @@
       "PackagePath": "staticwebassets\\css\\home.css"
     },
     {
+      "Id": "C:\\Users\\User\\Desktop\\vscode\\dotnet\\EcommerceMVC\\Ecommerce\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
       "Id": "C:\\Users\\User\\Desktop\\vscode\\dotnet\\EcommerceMVC\\Ecommerce\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
       "Id": "C:\\Users\\User\\Desktop\\vscode\\dotnet\\EcommerceMVC\\Ecommerce\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\vscode\\dotnet\\EcommerceMVC\\Ecommerce\\wwwroot\\img\\graos-de-cafe-levitam-em-um-fundo-branco.jpg",
+      "PackagePath": "staticwebassets\\img\\graos-de-cafe-levitam-em-um-fundo-branco.jpg"
     },
     {
       "Id": "C:\\Users\\User\\Desktop\\vscode\\dotnet\\EcommerceMVC\\Ecommerce\\wwwroot\\js\\site.js",

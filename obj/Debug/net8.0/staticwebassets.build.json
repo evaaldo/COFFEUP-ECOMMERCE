@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "N7CzBmOebJsAMZ55AqFO6sM08mSUoLAk4qpZHf5U/FI=",
+  "Hash": "vCp5h1JgEqocaOj0KttDB0nPNczu/KsO9dSELCQWBhQ=",
   "Source": "Ecommerce",
   "BasePath": "_content/Ecommerce",
   "Mode": "Default",
@@ -74,6 +74,25 @@
       "OriginalItemSpec": "wwwroot\\css\\home.css"
     },
     {
+      "Identity": "C:\\Users\\User\\Desktop\\vscode\\dotnet\\EcommerceMVC\\Ecommerce\\wwwroot\\css\\login.css",
+      "SourceId": "Ecommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\vscode\\dotnet\\EcommerceMVC\\Ecommerce\\wwwroot\\",
+      "BasePath": "_content/Ecommerce",
+      "RelativePath": "css/login.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\login.css"
+    },
+    {
       "Identity": "C:\\Users\\User\\Desktop\\vscode\\dotnet\\EcommerceMVC\\Ecommerce\\wwwroot\\css\\style.css",
       "SourceId": "Ecommerce",
       "SourceType": "Discovered",
@@ -110,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\vscode\\dotnet\\EcommerceMVC\\Ecommerce\\wwwroot\\img\\graos-de-cafe-levitam-em-um-fundo-branco.jpg",
+      "SourceId": "Ecommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\vscode\\dotnet\\EcommerceMVC\\Ecommerce\\wwwroot\\",
+      "BasePath": "_content/Ecommerce",
+      "RelativePath": "img/graos-de-cafe-levitam-em-um-fundo-branco.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\graos-de-cafe-levitam-em-um-fundo-branco.jpg"
     },
     {
       "Identity": "C:\\Users\\User\\Desktop\\vscode\\dotnet\\EcommerceMVC\\Ecommerce\\wwwroot\\js\\site.js",

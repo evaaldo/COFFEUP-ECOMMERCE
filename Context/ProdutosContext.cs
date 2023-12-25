@@ -1,4 +1,4 @@
-using Ecommerce.Models.Produtos;
+using Ecommerce.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace Ecommerce.Context.ProdutosContext

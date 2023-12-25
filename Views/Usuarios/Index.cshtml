@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] Ecommerce</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Ecommerce.styles.css" asp-append-version="true" />
+
+    <script src="https://kit.fontawesome.com/88cbac72fc.js" crossorigin="anonymous" defer></script>
+</head>
+<body>
+    <section class="login">
+        <nav>
+            <h1>CoffeUp</h1>
+            <a asp-controller="Produtos" asp-action="Index">Voltar a Home</a>
+        </nav>
+        <div class="observacao">
+            <h3><i class="fa-solid fa-lightbulb"></i> Faça login em sua conta de administrador para prosseguir com o gerenciamento dos produtos</h3>
+        </div>
+        <div class="formLogin">
+            <form>
+                <h1>Entrar</h1>
+                <div>
+                    <label for="">Usuário</label>
+                    <input type="text" placeholder="Usuário..">
+                </div>
+                <div>
+                    <label for="">Senha</label>
+                    <input type="password" placeholder="Senha..">
+                </div>
+                <div>
+                    <input class="btnEntrar" type="submit" value="Entrar">
+                </div>
+            </form>
+        </div>
+        <div class="copyright">
+            <p>© CoffeUp - 2023</p>
+        </div>
+    </section>
+</body>
+</html>

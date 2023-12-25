@@ -31,7 +31,9 @@ nav a:hover {
 }
 
 .sobre {
-    padding: 5em 10em;
+    padding: 5em 10em 2em 10em;
+    display: flex;
+    justify-content: space-between;
 }
 
 .sobre h1 {
@@ -59,25 +61,24 @@ nav a:hover {
     background-color: rgb(65, 36, 3);
 }
 
+.sobre img {
+    width: 400px;
+}
+
 .containers {
-    padding: 5em 10em;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
+    padding: 5em 10em 10em 10em;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 3em;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 220px;
     height: 220px;
-    text-align: center;
     /* background-color: rgb(0, 0, 0, .25);
     backdrop-filter: blur(15px); */
-    padding: 2em 0;
-    box-shadow: 1px 5px 10px 1px;
+    padding: 2em 1em 2em 1em;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
 }
 
@@ -91,7 +92,7 @@ nav a:hover {
 
 .container h4 {
     color: rgb(22, 134, 22);
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .container button {
@@ -103,8 +104,51 @@ nav a:hover {
     color: white;
     transition: .25s;
     margin-top: 1em;
+    width: 100%;
 }
 
 .container button:hover {
     background-color: rgb(1, 83, 1);
+}
+
+.container-amostra {
+    background-color: brown;
+    color: white;
+    transition: .25s;
+}
+
+.container-amostra:hover {
+    background-color: rgb(59, 2, 2);
+}
+
+.fa-arrow-right {
+    font-size: 2em;
+}
+
+footer {
+    background-color: rgb(65, 36, 3);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em 0;
+}
+
+footer h1 {
+    font-weight: 700;
+}
+
+footer a {
+    color: white;
+    padding: 1em 2em;
+    background-color: rgb(58, 8, 8);
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: .25s;
+}
+
+footer a:hover {
+    color: white;
+    background-color: rgb(37, 0, 0);
 }
