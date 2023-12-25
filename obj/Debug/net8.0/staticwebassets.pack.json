@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Ecommerce.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\User\\Desktop\\vscode\\dotnet\\EcommerceMVC\\Ecommerce\\wwwroot\\css\\gerenciamento.css",
+      "PackagePath": "staticwebassets\\css\\gerenciamento.css"
+    },
+    {
       "Id": "C:\\Users\\User\\Desktop\\vscode\\dotnet\\EcommerceMVC\\Ecommerce\\wwwroot\\css\\home.css",
       "PackagePath": "staticwebassets\\css\\home.css"
     },
@@ -19,6 +23,14 @@
     {
       "Id": "C:\\Users\\User\\Desktop\\vscode\\dotnet\\EcommerceMVC\\Ecommerce\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\vscode\\dotnet\\EcommerceMVC\\Ecommerce\\wwwroot\\img\\FUNDO-CADASTRO.jpg",
+      "PackagePath": "staticwebassets\\img\\FUNDO-CADASTRO.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\vscode\\dotnet\\EcommerceMVC\\Ecommerce\\wwwroot\\img\\FUNDO.jpg",
+      "PackagePath": "staticwebassets\\img\\FUNDO.jpg"
     },
     {
       "Id": "C:\\Users\\User\\Desktop\\vscode\\dotnet\\EcommerceMVC\\Ecommerce\\wwwroot\\img\\graos-de-cafe-levitam-em-um-fundo-branco.jpg",

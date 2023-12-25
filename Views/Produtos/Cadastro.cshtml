@@ -1,4 +1,4 @@
-@model Ecommerce.Models.Usuario
+@model Ecommerce.Models.Produto
 
 @{
     var mensagem = TempData["MensagemLogin"] as string;
@@ -18,23 +18,27 @@
 </head>
 <body>
     <section class="cadastro">
-        <div id="loginImg" class="cadastroImg">
+        <div class="cadastroImg">
         </div>
         <div class="cadastroFormulario">
             <div class="formCadastro">
                 <form asp-action="Index">
-                    <a asp-controller="Produtos" asp-action="Index"><i class="fa-solid fa-arrow-left"></i></a>
-                    <h1>Entrar</h1>
+                    <a asp-action="Listagem"><i class="fa-solid fa-arrow-left"></i></a>
+                    <h1>Cadastrar novo café</h1>
                     <div>
-                        <label asp-for="Nome">Usuário</label>
+                        <label asp-for="Nome">Produto</label>
                         <input asp-for="Nome" type="text" placeholder="Usuário..">
                     </div>
                     <div>
-                        <label asp-for="Senha">Senha</label>
-                        <input asp-for="Senha" type="password" placeholder="Senha..">
+                        <label asp-for="Descricao">Descrição</label>
+                        <input asp-for="Descricao" type="password" placeholder="Descricao..">
                     </div>
                     <div>
-                        <input id="btnEntrar" type="submit" value="Entrar">
+                        <label asp-for="Preco">Preço</label>
+                        <input asp-for="Preco" type="password" placeholder="Preco..">
+                    </div>
+                    <div>
+                        <input id="btnEntrar" type="submit" value="Cadastrar">
                     </div>
                     @if (!string.IsNullOrEmpty(mensagem))
                     {

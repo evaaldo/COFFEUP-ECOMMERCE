@@ -16,5 +16,15 @@ namespace Ecommerce.Controllers.ProdutosController
         {
             return View();
         }
+
+        public IActionResult Listagem()
+        {
+            return View();
+        }
+
+        public IActionResult Cadastro()
+        {
+            return View();
+        }
     }
 }

@@ -1,0 +1,88 @@
+.btnAcoes {
+    margin-top: 1.5em;
+}
+
+#btnEditar {
+    color: rgb(97, 97, 224);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: .25em .5em;
+    font-weight: 600;
+    transition: .25s;
+}
+
+#btnEditar:hover {
+    color: blue;
+}
+
+#btnDeletar {
+    color: rgb(128, 6, 6);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: .25em .5em;
+    font-weight: 600;
+    transition: .25s;
+}
+
+#btnDeletar:hover {
+    color: rgb(207, 16, 16);
+}
+
+.cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastroImg {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img/FUNDO-CADASTRO.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cadastroFormulario {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cadastroImg img {
+    width: 300px;
+}
+
+.formCadastro form {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 1em;
+}
+
+.formCadastro form div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
+}
+
+.formCadastro form div input {
+    border-radius: 5px;
+}
+
+.formCadastro form div input::placeholder {
+    padding-left: .5em;
+}
+
+.formCadastro form div #btnEntrar {
+    border-radius: 5px;
+    border: 0;
+}

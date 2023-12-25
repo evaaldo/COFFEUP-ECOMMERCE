@@ -18,8 +18,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\User\Desktop\vscode\dotnet\EcommerceMVC\Ecommerce
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/User/Desktop/vscode/dotnet/EcommerceMVC/Ecommerce/Views/Produtos/Cadastro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcQ2FkYXN0cm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/User/Desktop/vscode/dotnet/EcommerceMVC/Ecommerce/Views/Produtos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/vscode/dotnet/EcommerceMVC/Ecommerce/Views/Produtos/Listagem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcTGlzdGFnZW0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/User/Desktop/vscode/dotnet/EcommerceMVC/Ecommerce/Views/Shared/Error.cshtml]

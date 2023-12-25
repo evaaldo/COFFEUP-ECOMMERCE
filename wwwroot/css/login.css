@@ -22,10 +22,8 @@
     flex-direction: column;
     gap: 1em;
     border-radius: 5px;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
     padding: 2em 4em;
-    background-color: rgb(97, 52, 0);
-    color: white;
 }
 
 .formLogin form div {
@@ -37,7 +35,7 @@
 
 .formLogin form div input {
     border-radius: 5px;
-    border: 0;
+    border: 1px solid gray;
     background-color: white;
 }
 
@@ -46,21 +44,29 @@
     font-size: .8em;
 }
 
-.btnEntrar {
+#btnEntrar {
     margin-top: 2em;
     padding: .5em 1em;
     font-weight: 600;
     font-size: .8em;
     cursor: pointer;
     transition: .25s;
+    background-color: rgb(97, 97, 224);
+    color: white;
 }
 
-.btnEntrar:hover {
-    background-color: rgb(97, 97, 224);
+#btnEntrar:hover {
+    background-color: rgb(16, 16, 247);
     color: white;
 }
 
 .copyright {
     position: absolute;
     bottom: 0;
+}
+
+#loginImg {
+    background-image: url(/img/FUNDO.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }

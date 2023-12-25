@@ -28,7 +28,7 @@ namespace Ecommerce.Controllers.UsuariosController
                 if(nome == usuario.Nome && senha == usuario.Senha)
                 {
                     // return RedirectToAction(nameof(Index));
-                    return RedirectToAction("Index", "Produtos");
+                    return RedirectToAction("Listagem", "Produtos");
                 }
             }
 
