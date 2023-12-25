@@ -1,0 +1,110 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    gap: 35em;
+    padding: 2em 0;
+}
+
+nav h1 {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(97, 52, 0);
+    padding: 0 .5em;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1em;
+    transition: .25s;
+}
+
+nav a:hover {
+    color: white;
+    background-color: rgb(65, 36, 3);
+}
+
+.sobre {
+    padding: 5em 10em;
+}
+
+.sobre h1 {
+    font-weight: 600;
+}
+
+.sobre p {
+    width: 30%;
+    text-align: justify;
+    color: gray;
+    font-weight: 500;
+    margin: 2em 0;
+}
+
+.sobre a {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(97, 52, 0);
+    padding: .5em 1em;
+    border-radius: 10px;
+    transition: .25s;
+}
+
+.sobre a:hover {
+    background-color: rgb(65, 36, 3);
+}
+
+.containers {
+    padding: 5em 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 220px;
+    text-align: center;
+    /* background-color: rgb(0, 0, 0, .25);
+    backdrop-filter: blur(15px); */
+    padding: 2em 0;
+    box-shadow: 1px 5px 10px 1px;
+    border-radius: 5px;
+}
+
+.container h3 {
+    font-weight: 600;
+}
+
+.container p {
+    font-size: .8em;
+}
+
+.container h4 {
+    color: rgb(22, 134, 22);
+    font-weight: 600;
+}
+
+.container button {
+    border: 0;
+    border-radius: 5px;
+    padding: .5em 1em;
+    font-weight: 600;
+    background-color: rgb(80, 2, 2);
+    color: white;
+    transition: .25s;
+    margin-top: 1em;
+}
+
+.container button:hover {
+    background-color: rgb(1, 83, 1);
+}
