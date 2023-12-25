@@ -1,13 +1,13 @@
-using Ecommerce.Context.ProdutosContext;
+using Ecommerce.Context.BancosContext;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Ecommerce.Controllers.ProdutosController
 {
     public class ProdutosController : Controller
     {
-        private readonly ProdutosContext _context;
+        private readonly BancosContext _context;
 
-        public ProdutosController(ProdutosContext context)
+        public ProdutosController(BancosContext context)
         {
             _context = context;
         }

@@ -1,3 +1,9 @@
+@model Ecommerce.Models.Usuario
+
+@{
+    var mensagem = TempData["MensagemLogin"] as string;
+}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,19 +26,25 @@
             <h3><i class="fa-solid fa-lightbulb"></i> Faça login em sua conta de administrador para prosseguir com o gerenciamento dos produtos</h3>
         </div>
         <div class="formLogin">
-            <form>
+            <form asp-action="Index">
                 <h1>Entrar</h1>
                 <div>
-                    <label for="">Usuário</label>
-                    <input type="text" placeholder="Usuário..">
+                    <label asp-for="Nome">Usuário</label>
+                    <input asp-for="Nome" type="text" placeholder="Usuário..">
                 </div>
                 <div>
-                    <label for="">Senha</label>
-                    <input type="password" placeholder="Senha..">
+                    <label asp-for="Senha">Senha</label>
+                    <input asp-for="Senha" type="password" placeholder="Senha..">
                 </div>
                 <div>
                     <input class="btnEntrar" type="submit" value="Entrar">
                 </div>
+                @if (!string.IsNullOrEmpty(mensagem))
+                {
+                    <script>
+                        alert('@mensagem');
+                    </script>
+                }
             </form>
         </div>
         <div class="copyright">
