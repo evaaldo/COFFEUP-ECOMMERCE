@@ -1,0 +1,35 @@
+@model Ecommerce.Models.Produto
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] Ecommerce</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Ecommerce.styles.css" asp-append-version="true" />
+
+    <script src="https://kit.fontawesome.com/88cbac72fc.js" crossorigin="anonymous" defer></script>
+</head>
+<body>
+    <section class="home">
+        <nav>
+            <h1>CoffeUp - Gerenciamento</h1>
+            <a asp-controller="Produtos" asp-action="Index">Voltar ao Início</a>
+        </nav>
+        <div class="sobre">
+            <h3>Siga com sua compra logo abaixo</h3>
+        </div>
+        <form class="containerCompra">
+            <h3>@Model.Nome</h3>
+            <p>@Model.Descricao</p>
+            <h4>R$ @Model.Preco</h4>
+            <form action="Comprar">
+                <label>Quantidade: <input type="number" asp-for="Quantidade"></label> <br><br>
+                <button type="submit">Finalizar Compra</button>
+            </form>
+        </form>
+    </section>
+</body>
+</html>

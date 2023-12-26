@@ -99,7 +99,7 @@ nav a:hover {
     font-weight: 700;
 }
 
-.container button {
+.container a {
     border: 0;
     border-radius: 5px;
     padding: .5em 1em;
@@ -109,6 +109,9 @@ nav a:hover {
     transition: .25s;
     margin-top: 1em;
     width: 100%;
+    text-decoration: none;
+    text-align: center;
+    color: white;
 }
 
 .container button:hover {

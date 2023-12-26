@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "k04eWQFqF/yf/IS5bVG+ne7YLJxOHo9OgBKPLzFSJHI=",
+  "Hash": "35s/Wcn5gPoWizwKoZEacvZR+wKd7HXkFN7oAV/dOTg=",
   "Source": "Ecommerce",
   "BasePath": "_content/Ecommerce",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\User\\Desktop\\vscode\\dotnet\\EcommerceMVC\\Ecommerce\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Ecommerce.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\vscode\\dotnet\\EcommerceMVC\\Ecommerce\\wwwroot\\css\\compra.css",
+      "SourceId": "Ecommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\vscode\\dotnet\\EcommerceMVC\\Ecommerce\\wwwroot\\",
+      "BasePath": "_content/Ecommerce",
+      "RelativePath": "css/compra.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\compra.css"
     },
     {
       "Identity": "C:\\Users\\User\\Desktop\\vscode\\dotnet\\EcommerceMVC\\Ecommerce\\wwwroot\\css\\gerenciamento.css",

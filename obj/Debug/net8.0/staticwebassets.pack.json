@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Ecommerce.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\User\\Desktop\\vscode\\dotnet\\EcommerceMVC\\Ecommerce\\wwwroot\\css\\compra.css",
+      "PackagePath": "staticwebassets\\css\\compra.css"
+    },
+    {
       "Id": "C:\\Users\\User\\Desktop\\vscode\\dotnet\\EcommerceMVC\\Ecommerce\\wwwroot\\css\\gerenciamento.css",
       "PackagePath": "staticwebassets\\css\\gerenciamento.css"
     },

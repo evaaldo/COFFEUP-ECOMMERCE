@@ -90,5 +90,29 @@ namespace Ecommerce.Controllers.ProdutosController
 
             return RedirectToAction(nameof(Listagem));
         }
+
+        public IActionResult Comprar(int id)
+        {
+            var produto = _context.Produtos.Find(id);
+
+            if(produto == null)
+            {
+                return NotFound();
+            }
+
+            return View(produto);
+        }
+
+        [HttpPost]
+        public IActionResult Comprar(Produto produto)
+        {
+            var produtoBanco = _context.Produtos.Find(produto.ID);
+
+            produtoBanco.Quantidade -= produto.Quantidade;
+
+            _context.SaveChanges();
+
+            return RedirectToAction(nameof(Index));
+        }
     }
 }
