@@ -31,16 +31,19 @@
                 <h3>Dê uma olhada no estoque</h3>
                 <i class="fa-solid fa-arrow-right"></i>
             </div>
-            <div class="container">
-                <h3>Java Coffe</h3>
-                <p>Ideal para um apreciador raíz</p>
-                <h4>R$ 7.99</h4>
-                <div class="btnAcoes">
-                    <a id="btnEditar" href=""><i class="fa-solid fa-pen"></i></a>
-                    <a id="btnDeletar" href=""><i class="fa-solid fa-trash"></i></a>
+            @foreach(Produto produto in Model)
+            {
+                <div class="container">
+                    <h3>@produto.Nome</h3>
+                    <p>@produto.Descricao</p>
+                    <h4>R$ @produto.Preco</h4>
+                    <div class="btnAcoes">
+                        <a id="btnEditar" href=""><i class="fa-solid fa-pen"></i></a>
+                        <a id="btnDeletar" href=""><i class="fa-solid fa-trash"></i></a>
+                    </div>
                 </div>
-            </div>
-            <div class="container">
+            }
+            @* <div class="container">
                 <h3>Macchiato</h3>
                 <p>Elegância pura em camadas</p>
                 <h4>R$ 5.99</h4>
@@ -130,10 +133,7 @@
                     <a id="btnDeletar" href=""><i class="fa-solid fa-trash"></i></a>
                 </div>
             </div>
-        </div>
-        <footer>
-            <h1>CoffeUp</h1>
-        </footer>
+        </div> *@
     </section>
 </body>
 </html>

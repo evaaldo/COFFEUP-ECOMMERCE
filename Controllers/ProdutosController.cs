@@ -1,4 +1,5 @@
 using Ecommerce.Context.BancosContext;
+using Ecommerce.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Ecommerce.Controllers.ProdutosController
@@ -14,17 +15,30 @@ namespace Ecommerce.Controllers.ProdutosController
 
         public IActionResult Index()
         {
-            return View();
+            var produtos = _context.Produtos.ToList();
+
+            return View(produtos);
         }
 
         public IActionResult Listagem()
         {
-            return View();
+            var produtos = _context.Produtos.ToList();
+
+            return View(produtos);
         }
 
         public IActionResult Cadastro()
         {
             return View();
+        }
+
+        [HttpPost]
+        public IActionResult Cadastro(Produto produto)
+        {
+            _context.Produtos.Add(produto);
+            _context.SaveChanges();
+
+            return RedirectToAction(nameof(Listagem));
         }
     }
 }

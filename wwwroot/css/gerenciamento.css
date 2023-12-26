@@ -3,7 +3,7 @@
 }
 
 #btnEditar {
-    color: rgb(97, 97, 224);
+    color: rgb(53, 53, 240);
     text-decoration: none;
     border-radius: 5px;
     padding: .25em .5em;
@@ -12,11 +12,11 @@
 }
 
 #btnEditar:hover {
-    color: blue;
+    color: rgb(0, 119, 255);
 }
 
 #btnDeletar {
-    color: rgb(128, 6, 6);
+    color: rgb(219, 6, 6);
     text-decoration: none;
     border-radius: 5px;
     padding: .25em .5em;
@@ -25,7 +25,7 @@
 }
 
 #btnDeletar:hover {
-    color: rgb(207, 16, 16);
+    color: rgb(138, 2, 2);
 }
 
 .cadastro {
