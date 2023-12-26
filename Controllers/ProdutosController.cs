@@ -40,5 +40,28 @@ namespace Ecommerce.Controllers.ProdutosController
 
             return RedirectToAction(nameof(Listagem));
         }
+
+        public IActionResult Deletar(int id)
+        {
+            var produto = _context.Produtos.Find(id);
+
+            if(produto == null)
+            {
+                return NotFound();
+            }
+
+            return View(produto);
+        }
+
+        [HttpPost]
+        public IActionResult Deletar(Produto produto)
+        {
+            var produtoBanco = _context.Produtos.Find(produto.ID);
+
+            _context.Produtos.Remove(produtoBanco);
+            _context.SaveChanges();
+
+            return RedirectToAction(nameof(Listagem));
+        }
     }
 }

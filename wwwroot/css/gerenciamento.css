@@ -86,3 +86,51 @@
     border-radius: 5px;
     border: 0;
 }
+
+.deletar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.deletarContainer {
+    width: 40%;
+    text-align: center;
+    padding: 2em 3em;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.btnDeletar {
+    color: white;
+    background-color: rgb(219, 6, 6);
+    border: none;
+    border-radius: 5px;
+    padding: .25em .5em;
+    transition: .25s;
+}
+
+.btnDeletar:hover {
+    background-color: rgb(138, 2, 2);
+}
+
+.btnVoltar {
+    color: white;
+    background-color: rgb(158, 158, 158);
+    border: none;
+    border-radius: 5px;
+    padding: .40em .65em;
+    transition: .25s;
+    text-decoration: none;
+}
+
+.btnVoltar:hover {
+    color: white;
+    background-color: gray;
+}

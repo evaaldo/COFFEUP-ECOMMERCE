@@ -1,0 +1,30 @@
+@model Ecommerce.Models.Produto
+
+@{
+    var mensagem = TempData["MensagemLogin"] as string;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] Ecommerce</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Ecommerce.styles.css" asp-append-version="true" />
+
+    <script src="https://kit.fontawesome.com/88cbac72fc.js" crossorigin="anonymous" defer></script>
+</head>
+<body>
+    <section class="deletar">
+        <div class="deletarContainer">
+            <h3>Deseja mesmo apagar este registro?</h3>
+            <form asp-action="Deletar">
+                <a class="btnVoltar" asp-action="Listagem">Voltar</a>
+                <input class="btnDeletar" type="submit" value="Apagar">
+            </form>
+        </div>
+    </section>
+</body>
+</html>
