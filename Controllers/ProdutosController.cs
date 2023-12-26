@@ -63,5 +63,17 @@ namespace Ecommerce.Controllers.ProdutosController
 
             return RedirectToAction(nameof(Listagem));
         }
+
+        public IActionResult Editar(int id)
+        {
+            var produto = _context.Produtos.Find(id);
+
+            if(produto == null)
+            {
+                return NotFound();
+            }
+
+            return View(produto);
+        }
     }
 }

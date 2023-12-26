@@ -38,7 +38,7 @@
                     <p>@produto.Descricao</p>
                     <h4>R$ @produto.Preco</h4>
                     <div class="btnAcoes">
-                        <a id="btnEditar" href=""><i class="fa-solid fa-pen"></i></a>
+                        <a id="btnEditar" asp-action="Editar" asp-route-id="@produto.ID"><i class="fa-solid fa-pen"></i></a>
                         <a id="btnDeletar" asp-action="Deletar" asp-route-id="@produto.ID"><i class="fa-solid fa-trash"></i></a>
                     </div>
                 </div>
