@@ -75,5 +75,20 @@ namespace Ecommerce.Controllers.ProdutosController
 
             return View(produto);
         }
+
+        [HttpPost]
+        public IActionResult Editar(Produto produto)
+        {
+            var produtoBanco = _context.Produtos.Find(produto.ID);
+
+            produtoBanco.Nome = produto.Nome;
+            produtoBanco.Descricao = produto.Descricao;
+            produtoBanco.Preco = produto.Preco;
+
+            _context.Produtos.Update(produtoBanco);
+            _context.SaveChanges();
+
+            return RedirectToAction(nameof(Listagem));
+        }
     }
 }
