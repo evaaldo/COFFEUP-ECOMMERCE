@@ -109,7 +109,12 @@ namespace Ecommerce.Controllers.ProdutosController
         {
             var produtoBanco = _context.Produtos.Find(produto.ID);
 
-            produtoBanco.Quantidade = produto.Quantidade;
+            if(produtoBanco == null)
+            {
+                return NotFound();
+            }
+
+            produtoBanco.Quantidade -= produto.Quantidade;
 
             _context.SaveChanges();
 

@@ -21,7 +21,7 @@
         <div class="sobre">
             <h3>Siga com sua compra logo abaixo</h3>
         </div>
-        <form class="containerCompra">
+        <div class="containerCompra">
             <h3>@Model.Nome</h3>
             <p>@Model.Descricao</p>
             <h4>R$ @Model.Preco</h4>
@@ -29,7 +29,7 @@
                 <label asp-for="Quantidade">Quantidade <input type="number" asp-for="Quantidade"></label> <br><br>
                 <button type="submit">Finalizar Compra</button>
             </form>
-        </form>
+        </div>
     </section>
 </body>
 </html>
