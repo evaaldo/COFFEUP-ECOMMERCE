@@ -25,8 +25,8 @@
             <h3>@Model.Nome</h3>
             <p>@Model.Descricao</p>
             <h4>R$ @Model.Preco</h4>
-            <form action="Comprar">
-                <label>Quantidade: <input type="number" asp-for="Quantidade"></label> <br><br>
+            <form asp-action="Comprar">
+                <label asp-for="Quantidade">Quantidade <input type="number" asp-for="Quantidade"></label> <br><br>
                 <button type="submit">Finalizar Compra</button>
             </form>
         </form>

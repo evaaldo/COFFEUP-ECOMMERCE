@@ -84,6 +84,7 @@ namespace Ecommerce.Controllers.ProdutosController
             produtoBanco.Nome = produto.Nome;
             produtoBanco.Descricao = produto.Descricao;
             produtoBanco.Preco = produto.Preco;
+            produtoBanco.Quantidade = produto.Quantidade;
 
             _context.Produtos.Update(produtoBanco);
             _context.SaveChanges();
@@ -108,7 +109,7 @@ namespace Ecommerce.Controllers.ProdutosController
         {
             var produtoBanco = _context.Produtos.Find(produto.ID);
 
-            produtoBanco.Quantidade -= produto.Quantidade;
+            produtoBanco.Quantidade = produto.Quantidade;
 
             _context.SaveChanges();
 
