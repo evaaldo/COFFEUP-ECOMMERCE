@@ -10,11 +10,11 @@
 
 <h2>Imagens</h2>
 
-<img src="/img/CARDAPIO.png"/>
-<img src="/img/COMPRA.png"/>
-<img src="/img/LOGIN.png"/>
-<img src="/img/MANUTENÇÃO.png"/>
-<img src="/img/CADASTRAR.png"/>
-<img src="/img/EDITAR.png"/>
-<img src="/img/APAGAR.png"/>
+<img src="./wwwroot/img/CARDAPIO.png"/>
+<img src="./wwwroot/img/COMPRA.png"/>
+<img src="./wwwroot/img/LOGIN.png"/>
+<img src="./wwwroot/img/MANUTENÇÃO.png"/>
+<img src="./wwwroot/img/CADASTRAR.png"/>
+<img src="./wwwroot/img/EDITAR.png"/>
+<img src="./wwwroot/img/APAGAR.png"/>
 
